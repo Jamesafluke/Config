@@ -54,12 +54,12 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   {
-    "tyrannicaltoucan/vim-deep-space",
-    lazy = false,    -- Load this immediately on startup
-    priority = 1000, -- Make sure it loads before other plugins
+    "nyoom-engineering/oxocarbon.nvim",
+    lazy = false,
+    priority = 1000,
     config = function()
-      vim.g.deepspace_italics = 1
-      vim.cmd([[colorscheme deep-space]])
+      vim.opt.background = "dark"
+      vim.cmd([[colorscheme oxocarbon]])
     end,
   },
 })
