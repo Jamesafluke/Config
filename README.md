@@ -23,6 +23,9 @@ Enable sudo
 JetBrains Mono Nerdfont
 https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip
 
+Oh My Posh theme I like:
+https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/thecyberden.omp.json
+
 # Neovim Stuff
 
 ### Linux default location
