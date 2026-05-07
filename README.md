@@ -3,13 +3,13 @@ Set-ExecutionPolicy Bypass -Scope Process
 
 # Programs and Tools (not in OneShot)
 
-FilePilot
+[FilePilot](https://filepilot.tech/download/latest)
 
 Musescore
 
 Auto Hotkey
 
-Bambu
+[Bambu Studio](https://bambulab.com/en-us/download/studio)
 
 https://github.com/Raphire/Win11Debloat
 
