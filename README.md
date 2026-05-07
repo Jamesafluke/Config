@@ -1,3 +1,6 @@
+
+Set-ExecutionPolicy Bypass -Scope Process
+
 # Programs and Tools (not in OneShot)
 
 FilePilot
