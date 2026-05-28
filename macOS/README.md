@@ -1,26 +1,26 @@
 
 Install Brew
-Install nvim
+brew install neovim
 Install iterm2
-Install Git
+brew install git
 Install Terraform
+brew install azure-cli
 Install Razor Synapse
 Install Synergy
 Install AutoFocus (auto focuses whatever window your mouse hovers).
-Install LinearMouse (separate wheel and pad scrolling)
-- brew install --cask linearmouse
+brew install --cask linearmouse
 Install Rectangle (hotkey window snapping)
 - Configured my snap hotkeys to Control + Option +Up/Left/Right.
 - Command + H minimizes by default.
 Install Karabiner-Elements
-- Swap command and globe.
 - Cmd Delete delete previous word.
 - Cmd Left/Right jump a word
 - Caps lock > escape
-Install HopTab
+Install HopTab - probably not acutlaly. doesn't do what was promised.
 brew tap royalbhati/tap
 brew install --cask hoptab
 --------------------------------------------------
+Use macOS Shortcuts for ctrl + 1, ctrl + 2, etc. (This doesn't quite work)
 Hide stuff from dock
 Function lock off
 - Keyboard Shortcuts > Function Keys.
@@ -32,11 +32,23 @@ Turn off some Menu Bar icons
 Show file extensions
 - Finder > Settings > Advanced
 
+-------iTerm-------
+For Option Backspace: Settings > Profiles > Keys > General Left option key: Esc+
+Add to ~/.zshrc
+# Delete word backward (Option + Delete)
+bindkey '^[^?' backward-kill-word
+
+# Delete word forward (Option + Fn + Delete / Option + Forward Delete)
+bindkey '^[[3~' kill-word
+
+
+
+
 
 
 
 # History
 May 2027
-  Got my new MacBook, immediately swapped Command and fn. (Also mapped some nice QOL around that key.)
+  Got my new MacBook, immediately swapped Command and fn.
   Biggest reason is that I swap between macOS and Windows.
   But I changed my mind. I'm going to go FULL MAC KEYBOARD, no remapping. Meanwhile I'm programming my Kinesis to my liking on macOS, not Win.
