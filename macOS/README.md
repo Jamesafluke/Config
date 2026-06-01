@@ -24,6 +24,7 @@ Use macOS Shortcuts for ctrl + 1, ctrl + 2, etc. (This doesn't quite work)
 Hide stuff from dock
 Function lock off
 - Keyboard Shortcuts > Function Keys.
+Turn off keyboard auto-correct (Keyboard > Input Sources > Edit
 Trackpad speed up
 Trackpad scroll speed
 - Accessibility > Scroll Speed
