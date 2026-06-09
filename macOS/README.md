@@ -3,9 +3,7 @@
 - Rectangle (hotkey window snapping)
     - Configured my snap hotkeys to Control + Option +Up/Left/Right.
     - Command + H minimizes by default.
-- Karabiner-Elements
-    - Cmd Delete delete previous word.
-    - Cmd Left/Right jump a word
+- Karabiner-Elements (maybe, but I'm not currently using it for anything)
 - Razor Synapse
 - Synergy
 - AutoFocus (auto focuses whatever window your mouse hovers).
