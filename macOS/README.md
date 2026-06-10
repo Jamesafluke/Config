@@ -33,6 +33,9 @@
 - Turn off some Menu Bar icons
 - Show file extensions
   - Finder > Settings > Advanced
+ 
+- Screenshots: save and copy to clipboard (run in terminal)
+-     `defaults write com.apple.screencapture target -string "both"`
 
 
 
