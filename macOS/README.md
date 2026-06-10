@@ -36,6 +36,8 @@
  
 - Screenshots: save and copy to clipboard (run in terminal)
     - `defaults write com.apple.screencapture target -string "both"`
+- Screenshots: save location
+    - Cmd + Shift + 5 > Options
 
 
 
