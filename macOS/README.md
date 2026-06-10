@@ -35,7 +35,7 @@
   - Finder > Settings > Advanced
  
 - Screenshots: save and copy to clipboard (run in terminal)
--     `defaults write com.apple.screencapture target -string "both"`
+    - `defaults write com.apple.screencapture target -string "both"`
 
 
 
