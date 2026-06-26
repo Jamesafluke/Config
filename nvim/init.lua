@@ -38,6 +38,8 @@ vim.schedule(function()
   vim.opt.clipboard = "unnamedplus"
 end)
 
+-- For Obsidian something related to md I think.
+vim.opt.conceallevel = 2
 
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -51,15 +53,28 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 
-
-require("lazy").setup({
-  {
-    "nyoom-engineering/oxocarbon.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.opt.background = "dark"
-      vim.cmd([[colorscheme oxocarbon]])
-    end,
-  },
-})
+if not vim.g.vscode then
+	require("lazy").setup({
+	  {
+		"nyoom-engineering/oxocarbon.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+		  vim.opt.background = "dark"
+		  vim.cmd([[colorscheme oxocarbon]])
+		end,
+	  },
+	  {
+		"obsidian-nvim/obsidian.nvim",
+		version = "*",
+		---@module 'obsidian'
+		---@type obsidian.config
+		opts = {
+		  legacy_commands = false,
+		  workspaces = {
+			{ name = "notes", path = "~/notes" },
+		  },
+		},
+	  },
+	})
+end
